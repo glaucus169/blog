@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+# !/usr/bin/env sh
 
 # 确保脚本抛出遇到的错误
 set -e
@@ -28,6 +28,6 @@ git commit -m 'deploy'
 
 git push -f git@gitee.com:glaucusZh/glaucus-blog.git master
 
-cd -
+#cd -
 
-rm -rf docs/.vuepress/dist
+#rm -rf docs/.vuepress/dist
