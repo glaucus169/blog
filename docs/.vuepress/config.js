@@ -5,7 +5,7 @@ module.exports = {
   theme: "vdoing",
   title: "百草春生",
   description: 'glaucus技术博客',
-  base: "./",
+  // base: "./",
   markdown: {
     lineNumbers: true
   },

@@ -10,7 +10,7 @@ npm run build
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-#echo 'blog.storyxc.com' > CNAME
+echo 'blog.glaucus.cool' > CNAME
 
 #if [ -z "${GITHUB_TOKEN}" ]; then
 #  echo "GITHUB_TOKEN is not set"
@@ -26,8 +26,8 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@gitee.com:glaucusZh/glaucus-blog.git master
+git push -f git@github.com:glaucus169/blog.git master:gh-pages
 
-#cd -
+cd -
 
-#rm -rf docs/.vuepress/dist
+rm -rf docs/.vuepress/dist

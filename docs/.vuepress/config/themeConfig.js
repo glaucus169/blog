@@ -51,7 +51,7 @@ module.exports = {
   },
 
   footer: {
-    createYear: 2019,
+    createYear: 2022,
     copyrightInfo: [
       '<a href="http://storyxc.com" target="_blank" style="font-weight:bold">story</a>',
       ' | ',
