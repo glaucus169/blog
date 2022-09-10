@@ -1,6 +1,6 @@
 module.exports = [
   ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }],
-  ['meta', { name: 'author', content: '百草春生' }],
+  ['meta', { name: 'author', content: 'Glaucus' }],
   ['meta', { name: 'keywords', content: 'Java,Golang,后端开发' }]
 
 ]

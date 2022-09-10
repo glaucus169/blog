@@ -1,8 +1,5 @@
 module.exports = [
     { text: '首页', link: '/' },
-    { text: '分类', link: '/categories/' },
-    { text: '标签', link: '/tags/' },
-    { text: '指南', link: '/pages/8c2319/' },
     {
         text: '模块',
         items: [
@@ -15,6 +12,9 @@ module.exports = [
             { text: '折腾', link: '/pages/de595b/' }
         ]
     },
+    { text: '分类', link: '/categories/' },
+    { text: '标签', link: '/tags/' },
+    { text: '指南', link: '/pages/8c2319/' },
     {
         text: '归档',
         link: '/archives/'
